@@ -19,5 +19,9 @@ public class Soporte {
 
     public static void main(String[] args) {
         Soporte soporte = new Soporte("TV", "Metal", "Negro", "Mediano", "LG", "MountPro", "Nuevo");
+        Soporte soporte2 = new Soporte("Monitor", "Plástico", "Blanco", "Pequeño", "Samsung", "StandX", "Usado");
+        Soporte soporte3 = new Soporte("Proyector", "Aluminio", "Gris", "Grande", "Epson", "ProjMax", "Nuevo");
+        Soporte soporte4 = new Soporte("Altavoz", "Madera", "Marrón", "Mediano", "Bose", "SoundStand", "Usado");
+        Soporte soporte5 = new Soporte("Cámara", "Plástico", "Negro", "Pequeño", "Canon", "CamMount", "Nuevo");
     }
 }

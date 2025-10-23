@@ -1,11 +1,11 @@
-public class ParedVidrio {
+public class paredVidrio {
     String estado;
     String cerradura;
     int cantidadPestañas;
     double longitud;
     double altura;
 
-    public ParedVidrio(String estado, String cerradura, int cantidadPestañas, double longitud, double altura) {
+    public paredVidrio(String estado, String cerradura, int cantidadPestañas, double longitud, double altura) {
         this.estado = estado;
         this.cerradura = cerradura;
         this.cantidadPestañas = cantidadPestañas;
@@ -14,6 +14,6 @@ public class ParedVidrio {
     }
 
     public static void main(String[] args) {
-        ParedVidrio pared = new ParedVidrio("Transparente", "Magnética", 3, 4.0, 2.5);
+        paredVidrio pared = new paredVidrio("Transparente", "Magnética", 3, 4.0, 2.5);
     }
 }
